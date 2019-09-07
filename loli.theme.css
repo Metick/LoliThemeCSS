@@ -1,7 +1,6 @@
 //META{"name":"Loli","description":"LoliTheme - Based on a Electro Theme |","author":"Yuki","version":"1.1"}*//
 @import url("https://tropix126.github.io/BetterDiscordStuff/blockBetterDocs.css");
 @import url('https://raw.githack.com/codedotspectra/themes/master/mini-themes/settingsIcons.css');
-@import url('https://raw.githubusercontent.com/Metick/LoliThemeCSS/master/lol.theme.css');
 .container-1UB9sr,.container-2Thooq,.container-PNkimc,.members-1998pB {
 	background-color:var(--medium)!important
 }
