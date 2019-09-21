@@ -390,6 +390,7 @@
 --light: #131517;
 --medium: #101214;
 --dark: #0c0e0f;
+
 }
 .theme-dark .members-1998pB {
     background-color: #0c0e0f;
@@ -502,4 +503,34 @@
 }
 .container-3baos1, .container-3baos1 .avatar-SmRMf2 {
 	background-color: #0c0e0f !important;
+}
+.contentRegionScroller-26nc1e {
+	background-color: #101214 !important;
+}
+.sidebarRegionScroller-3MXcoP  {
+	background: #0c0e0f!important;
+}
+.scroller-1JbKMe {
+	background: #0c0e0f!important;
+}
+.scroller-2TZvBN {
+	background-color: #101214;
+}
+.messages-3amgkR {
+	background-color: #101214;
+}
+.scroller-1IIF0A {
+	background-color: #101214;
+}
+.scroller-9moviB {
+	background-color: #101214;
+}
+.friendsTable-133bsv .friendsTableBody-1ZhKif {
+	background-color: #0c0e0f;
+}
+.slideBody-2nMrnU {
+	background-color: #0c0e0f;
+}	
+.slideBody-35BNbg {
+	background-color: #0c0e0f;	
 }
