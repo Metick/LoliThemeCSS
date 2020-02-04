@@ -1,4 +1,4 @@
-//META{"name":"Loli","description":"LoliTheme - Based on a Electro Theme |","author":"Yuki","version":"1.2"}*//
+//META{"name":"Loli","description":"LoliTheme - Based on a Electro Theme |","author":"Yuki","version":"1.1"}*//
 @import url("https://tropix126.github.io/BetterDiscordStuff/blockBetterDocs.css");
 @import url('https://raw.githack.com/codedotspectra/themes/master/mini-themes/settingsIcons.css');
 .container-1UB9sr,.container-2Thooq,.container-PNkimc,.members-1998pB {
@@ -592,20 +592,17 @@
 }
 <!-- Message Box -->
 .form-2fGMdU {
-	padding-left: 0px!important;
 }
 .channelTextArea-rNsIhG {
 		background-color: rgba(0,0,0,.76);
 }
 .chat-3bRxxu form {
 	margin:0;
-	position:static;
-	padding-top:0px;
-	padding-right:16px;
-	padding-left: 16px;
+	padding: 0px;
 	background-color: #0c0e0f;
 	border:1px solid var(--dark);
 }
-.scrollableContainer-2NUZem {
-	background-color #2e2e2e;
+<!-- Typing fix -->
+.typing-2GQL18 .base-gE7OpD .da-typing .da-base{
+	position: static;
 }
