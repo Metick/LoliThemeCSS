@@ -1,4 +1,4 @@
-//META{"name":"Loli","description":"LoliTheme - Based on a Electro Theme |","author":"Yuki","version":"1.1"}*//
+//META{"name":"Loli","description":"LoliTheme - Based on a Electro Theme |","author":"Yuki","version":"1.2"}*//
 @import url("https://tropix126.github.io/BetterDiscordStuff/blockBetterDocs.css");
 @import url('https://raw.githack.com/codedotspectra/themes/master/mini-themes/settingsIcons.css');
 .container-1UB9sr,.container-2Thooq,.container-PNkimc,.members-1998pB {
@@ -179,13 +179,7 @@
 	border:none!important;
 }
 
-.chat-3bRxxu form {
-	margin:0;
-	background-color:var(--medium)!important;
-	box-sizing:border-box}.inner-zqa7da{border-radius:50px;
-	background-color:rgba(79,84,92,.4)!important;
-	border:1px solid var(--dark);
-}
+
 
 .attachButtonInner-1iyZ9F:hover>svg { 
 	opacity:1;
@@ -575,4 +569,43 @@
 }
 .option-n0icdO {
 	background-color: var(--dark);
+}
+<!-- Divider -->
+.group-spacing-0 .hasContent-1_DUdQ {
+	background-color: var(--primary);
+}
+.hasContent-1cNJDh {
+	background-color: rebeccapurple;
+}
+.content-1o0f9g { 
+	color: var(--header-primary);
+	background-color: var(--primary);
+}
+
+<!-- Reaction -->
+.emojiButton-jE9tXC .da-emojiButton .button-1ZiXG9 .da-button {
+	background-color: rgba(0,0,0,.76)!important;
+}
+.wrapper-2aW0bm {
+	background-color: rgba(0,0,0,.76);
+	border-bottom: 1px solid var(--primary);
+}
+<!-- Message Box -->
+.form-2fGMdU {
+	padding-left: 0px!important;
+}
+.channelTextArea-rNsIhG {
+		background-color: rgba(0,0,0,.76);
+}
+.chat-3bRxxu form {
+	margin:0;
+	position:static;
+	padding-top:0px;
+	padding-right:16px;
+	padding-left: 16px;
+	background-color: #0c0e0f;
+	border:1px solid var(--dark);
+}
+.scrollableContainer-2NUZem {
+	background-color #2e2e2e;
 }
