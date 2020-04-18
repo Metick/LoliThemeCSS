@@ -225,7 +225,70 @@
 .wrapper-29NfPK {
   background-color: var(--quaternary-color) !important;
 }
+.clickable-18m--O {
+	color: white;
+	vertical-align: middle;
+	-webkit-transform: perspective(1px) translateZ(0);
+	transform: perspective(1px) translateZ(0);
+	box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+	position: relative;
+	overflow: hidden;
+	background-color: #0c0e0f;
+}
+.clickable-18m--O:before {
+	content: "";
+	position: absolute;
+	z-index: -1;
+	left: 0;
+	right: 100%;
+	bottom: 0;
+	background: #d378f5;
+	height: 4px;
+	-webkit-transition-property: right;
+	transition-property: right;
+	-webkit-transition-duration: 0.3s;
+	transition-duration: 0.3s;
+	-webkit-transition-timing-function: ease-out;
+	transition-timing-function: ease-out;
+	
+	
+}
+.clickable-18m--O:hover:before, .clickable-18m--O:focus:before, .clickable-18m--O:active:before {
+  right: 0;
+  color: white;
+}
 
+.channel-2QD9_O.selected-1HYmZZ a {
+	color: white;
+	vertical-align: middle;
+	-webkit-transform: perspective(1px) translateZ(0);
+	transform: perspective(1px) translateZ(0);
+	box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+	position: relative;
+	overflow: hidden;
+}
+.channel-2QD9_O.selected-1HYmZZ a:before { 
+	content: "";
+	position: absolute;
+	z-index: -1;
+	left: 0;
+	right: 100%;
+	bottom: 0;
+	background: #d378f5;
+	height: 2px;
+	-webkit-transition-property: right;
+	transition-property: right;
+	-webkit-transition-duration: 0.3s;
+	transition-duration: 0.3s;
+	-webkit-transition-timing-function: ease-out;
+	transition-timing-function: ease-out;
+}
+
+.channel-2QD9_O.selected-1HYmZZ a:before, .channel-2QD9_O.selected-1HYmZZ a:focus:before, .channel-2QD9_O.selected-1HYmZZ a:active:before {
+	right: 0;
+	color: white;
+
+}
 
 /* Friends List */
 .container-3gCOGc {
